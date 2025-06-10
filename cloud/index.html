@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Documentation Files</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #1e293b;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #3b82f6;
+            margin-top: 30px;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 10px;
+        }
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .service-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            padding: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .service-title {
+            font-size: 1.2rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #1e293b;
+        }
+        a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .back-to-home {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background-color: #3b82f6;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+        .back-to-home:hover {
+            background-color: #2563eb;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/AWS-GCP/" class="back-to-home">← Back to Home</a>
+        
+        <h1>Cloud Documentation Files</h1>
+        
+        <h2>AWS Services</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3 class="service-title">EC2</h3>
+                <a href="/AWS-GCP/cloud/AWS/EC2.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">S3</h3>
+                <a href="/AWS-GCP/cloud/AWS/S3.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">Lambda</h3>
+                <a href="/AWS-GCP/cloud/AWS/Lambda.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">API Gateway</h3>
+                <a href="/AWS-GCP/cloud/AWS/API_Gateway.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">CloudFormation</h3>
+                <a href="/AWS-GCP/cloud/AWS/CloudFormation.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">CloudFront</h3>
+                <a href="/AWS-GCP/cloud/AWS/CloudFront.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">CloudWatch</h3>
+                <a href="/AWS-GCP/cloud/AWS/CloudWatch.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">DynamoDB</h3>
+                <a href="/AWS-GCP/cloud/AWS/DynamoDB.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">EBS</h3>
+                <a href="/AWS-GCP/cloud/AWS/EBS.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">ECS</h3>
+                <a href="/AWS-GCP/cloud/AWS/ECS.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">IAM</h3>
+                <a href="/AWS-GCP/cloud/AWS/IAM.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">Networking</h3>
+                <a href="/AWS-GCP/cloud/AWS/Networking.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">RDS</h3>
+                <a href="/AWS-GCP/cloud/AWS/RDS.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">Route53</h3>
+                <a href="/AWS-GCP/cloud/AWS/Route53.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">SNS & SQS</h3>
+                <a href="/AWS-GCP/cloud/AWS/SNS_SQS.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">Storage</h3>
+                <a href="/AWS-GCP/cloud/AWS/storage.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">VPC</h3>
+                <a href="/AWS-GCP/cloud/AWS/VPC.md">View Documentation</a>
+            </div>
+        </div>
+        
+        <h2>AWS Resources</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3 class="service-title">AWS CLI Commands Reference</h3>
+                <a href="/AWS-GCP/cloud/AWS/aws-cli-commands-reference.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">GCP to AWS Migration</h3>
+                <a href="/AWS-GCP/cloud/AWS/gcp-aws-migration.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">GCloud Commands Reference</h3>
+                <a href="/AWS-GCP/cloud/AWS/gcloud-commands-reference.md">View Documentation</a>
+            </div>
+        </div>
+
+        <h2>GCP Services</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3 class="service-title">Compute Engine</h3>
+                <a href="/AWS-GCP/cloud/GCP/ComputeEngine.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">Cloud Storage</h3>
+                <a href="/AWS-GCP/cloud/GCP/CloudStorage.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">Cloud Functions</h3>
+                <a href="/AWS-GCP/cloud/GCP/CloudFunctions.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">GKE</h3>
+                <a href="/AWS-GCP/cloud/GCP/GKE.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">IAM</h3>
+                <a href="/AWS-GCP/cloud/GCP/IAM.md">View Documentation</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">VPC</h3>
+                <a href="/AWS-GCP/cloud/GCP/VPC.md">View Documentation</a>
+            </div>
+        </div>
+
+        <h2>PDF Resources</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3 class="service-title">AMI Restoration Troubleshooting Guide</h3>
+                <a href="/AWS-GCP/cloud/AWS/123/AMI_Restoration_Troubleshooting_Guide.pdf">View PDF</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">AWS Implementation Q&A</h3>
+                <a href="/AWS-GCP/cloud/AWS/123/AWS_Implementation_QA.pdf">View PDF</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">AWS Implementation Q&A with Diagrams</h3>
+                <a href="/AWS-GCP/cloud/AWS/123/AWS_Implementation_QA_with_Diagrams.pdf">View PDF</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">Cloud DevOps Networking Q&A</h3>
+                <a href="/AWS-GCP/cloud/AWS/123/Cloud_DevOps_Networking_QA.pdf">View PDF</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">Cloud Q&A with All Diagrams</h3>
+                <a href="/AWS-GCP/cloud/AWS/123/Cloud_QA_with_All_Diagrams.pdf">View PDF</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">Cloud Q&A with Diagrams</h3>
+                <a href="/AWS-GCP/cloud/AWS/123/Cloud_QA_with_Diagrams.pdf">View PDF</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">Cloud Q&A with Visual Diagram</h3>
+                <a href="/AWS-GCP/cloud/AWS/123/Cloud_QA_with_Visual_Diagram.pdf">View PDF</a>
+            </div>
+            <div class="service-card">
+                <h3 class="service-title">Detailed Cloud DevOps Networking Q&A</h3>
+                <a href="/AWS-GCP/cloud/AWS/123/Detailed_Cloud_DevOps_Networking_QA.pdf">View PDF</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
